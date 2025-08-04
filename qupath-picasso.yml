@@ -4,6 +4,7 @@ channels:
   - defaults
 dependencies:
   - python=3.12
+  - torchvision
   - joblib
   - numpy
   - scipy
@@ -11,4 +12,5 @@ dependencies:
   - scikit-image
   - pip
   - pip:
+
       - git+https://github.com/diapath/mosaic-picasso.git
