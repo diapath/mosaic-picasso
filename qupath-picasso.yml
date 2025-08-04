@@ -5,6 +5,7 @@ channels:
 dependencies:
   - python=3.12
   - torchvision
+  - zarr
   - joblib
   - numpy
   - scipy
@@ -14,3 +15,4 @@ dependencies:
   - pip:
 
       - git+https://github.com/diapath/mosaic-picasso.git
+
