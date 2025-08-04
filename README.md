@@ -10,7 +10,7 @@ conda env create -f https://raw.githubusercontent.com/diapath/mosaic-picasso/ref
 
 This uses the [yml file](/qupath-picasso.yml) from this repository.
 
-Then you will need to copy the two script files  in the [qupath folder]((qupath/)) ([run=mosaic.py](/qupath/run_mosaic.py) and [run=mosaic.groovy](/qupath/run_mosaic.groovy)) into your QuPath project's scripts folder.
+Then you will need to copy the two script files  in the [qupath folder]((qupath/)) ([run-mosaic.py](/qupath/run_mosaic.py) and [run-mosaic.groovy](/qupath/run_mosaic.groovy)) into your QuPath project's scripts folder.
 
 You will also probably need to change the `condaExe` variable in `run_picasso.groovy` to match your conda / miniconda / anaconda installation.
 
