@@ -3,4 +3,4 @@ numpy
 scipy
 tifffile
 skimage
-napari[all]
+#napari[all]
