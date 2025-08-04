@@ -1,0 +1,14 @@
+name: qupath-picasso
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - joblib
+  - numpy
+  - scipy
+  - tifffile
+  - scikit-image
+  - pip
+  - pip:
+      - git+https://github.com/diapath/mosaic-picasso.git
