@@ -17,8 +17,8 @@ def demux(fn_image, fn_json=None):
     # Load the image as zarr
     store = tifffile.imread(fn_image, aszarr=True)
     z = zarr.open(store, mode='r')
-    //print("zarr type", type(z))
-    //print("zarr keys:", z.keys())
+    #print("zarr type", type(z))
+    #print("zarr keys:", z.keys())
     first_key = list(z.keys())[0]
 
 
